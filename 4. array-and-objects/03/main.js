@@ -49,4 +49,10 @@ for(var a of penguins){
      delete penguins[a].outfit.pants
  }
 
-/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////\
+
+for(let object of penguins){
+    for(let key in object.outfit){
+        console.log(object.outfit.key)
+    }
+}
